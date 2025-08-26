@@ -1,4 +1,5 @@
 Student Management System - Backend  
+
 A complete Student Management System backend built with Node.js, Express, MySQL, and Prisma ORM featuring JWT authentication and CRUD operations for student management.  
 🚀 Features  
   
