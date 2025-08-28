@@ -48,13 +48,18 @@ mysql -u root -p
 source student_management_db.sql  
   
 Configure Environment Variables:  
+
 Create .env file in root directory:  
 envDATABASE_URL="mysql://username:password@localhost:3306/student_management_db"  
+
 JWT_SECRET="your_super_secret_jwt_key_here_12345"  
 PORT=5000  
+
 Replace username and password with your MySQL credentials.  
+
 Generate Prisma Client:  
 bashnpx prisma generate  
+
 npx prisma db push  
   
   
